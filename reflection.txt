@@ -1,0 +1,9 @@
+Q: What happens when you initialize a repository? why do you need to do it?
+A: to initialize a repository "git init" command used which will convert a plain directory into git repository.
+We need to do it beacuse git only work on repositry system.
+
+Q: How is the staging srea different from the working directory and the reposiroty? What value do you think it offeres?
+A: Staging area servers like a brdge connection between working directory and repository.
+when you create a file in working directory, instead of committing directly to repository, you can stage the changes for some time
+so that you can multiple change in one shot which one is connected logically.
+
