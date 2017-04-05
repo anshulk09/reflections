@@ -1,0 +1,41 @@
+Q: How did the diff between two files help you see the bug that was introduced?
+A: The quickest and easy solution to find out the line which contains error or bug is to differentiate the file line by line.
+This can be achieved by using DIFF -u command in linux and FC in windows.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: Whenever we make changes to the code we are writing to update some functionality of the package,
+ this update can add some new functioinality
+ but it can also effect some old functionality in a very bad manner
+ and your package will not perform as per expectations.
+ In taht scenario we need to access previously written code or previous version of the code to check the bugs
+ and find out the effected line or word.
+ If required we can also revert to our previous code to make our code running again for the time being.
+
+Q: What are the pros and cons of manually choosing ahen to create a commint in comparison to the automatically commit?
+A: 1. Automatically commit can commit in appropriate changes like if we have not update one perticular module till the time 
+ and its still not good time to create a commit but automatic commit will commit the changes and that can create problems.
+On the other hand in manually choosing the creation of commit, one can decide what is the best timne to commit the changes like 
+commiting the changes after updating one particular functiionality in one module.
+
+ 2. Manually commit can be unuseful if one has forgotten to commit the changes and continiously updating the changes, in that case the commit
+will be too laarge to handle and sometimes developer failed to decide what will be the good time to commit the changes and commit the changes 
+inappropriatly, this can create problem while checking logs or tracking the changes.
+On the other hand, one dont need to decide when to commit the changes because automatic commit all do on its own.
+
+Q: Why do you think some version control system like git, allow saving multiple file in one commit.
+while others like google docs, treat each file separately?
+A: To help developers, git allows commiting multiple files in one go. It helps developers to commit one logical change in one go,
+while it may include some others files as well but it would be easy to track these files and its changes
+ as these files are logically interconnected.
+
+Q: Hoiw can you use git log and git diff commands to view the histroy of files?
+A: git log: git log command is used to check the commiting history of any file inside a repository.
+  git diff: this command is used to check the changes made in a file with comparing it to the previous version of the file.
+
+Q: How might using version control make you more confident to make changes that could break something?
+A: Using version control always give you an option to switch between codes so that you can check where the bug started, if 
+multiple guys are working on a project, kit would be easy to track whoose code has introduced problem.
+
+Q: What do you want to try using git for?
+A: Git will be used to develope software packages while multiple coders are involved in coding to control different versions
+of any file.
