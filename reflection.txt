@@ -7,3 +7,14 @@ A: Staging area servers like a brdge connection between working directory and re
 when you create a file in working directory, instead of committing directly to repository, you can stage the changes for some time
 so that you can multiple change in one shot which one is connected logically.
 
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: If i have multiple files related to one logical change, i can add these multiple file to staging area and then commit these files
+at once. same applies for one single file.
+
+Q: What are some situations where you want to use branching?
+A: Branches are used when you want to  keep your code running and want to make some experiment on the running code.
+you can create branch and start working on the experiment, it will not effect your original code.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: Diagrams help to understand things easily. It shows where and when we ahev created the branch.
+
