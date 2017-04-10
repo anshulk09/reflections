@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+When i am the only person working on my project, i would like to keep all my work local but 
+If you are working with multiple developers, you must use remote repository as it will serve as a central repository and as it track
+all your changes, so it will be easy to manage among all other developers.
