@@ -12,3 +12,7 @@ fork- when you copy some one else repository to your account to work on ti indep
 clones- clone is to copy github branch to local or local branch to local repository.
 branches- branches is used to work on a code without changing the code itself by creating the branch.
 
+What are the benefits of having a copy of the last known state of the remote stored locally?
+it help to track the changes you have made in your local respository and the changes you are going to make further.
+additionally if your partner is also working on the same project, it is beneficial to know what was the last known state
+pulled to your local repository to resolve the conflict further while commiting the changes.
