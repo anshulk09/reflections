@@ -16,3 +16,7 @@ What are the benefits of having a copy of the last known state of the remote sto
 it help to track the changes you have made in your local respository and the changes you are going to make further.
 additionally if your partner is also working on the same project, it is beneficial to know what was the last known state
 pulled to your local repository to resolve the conflict further while commiting the changes.
+
+How would you collaborate without using git or github? what would be easier, and what would be harder?
+This is not possible for me to collaborate without using git or github. It would be easier to collaborate with git as git serve you as 
+a central system for all who is working on the prokect.
